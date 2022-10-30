@@ -9,7 +9,7 @@ export default function About () {
                 <div className="mt-4 col-6 text-center bg-dark text-light rounded ">
                     <h1>Tim Obrien</h1>
                     <p>I am a junior web developer working at Dapth</p>
-                    <img src="./images/me.jpeg" className="w-100"></img>
+                    <img src="/images/me.jpeg" className="w-100"></img>
                 </div>
             </div>
         
