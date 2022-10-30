@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -33,7 +33,7 @@ function App() {
   return (
 
     <div>
-      <RouterProvider router={router}/>
+      <Router basename='/'/>
     </div>
   );
 }
